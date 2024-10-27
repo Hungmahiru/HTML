@@ -1,0 +1,96 @@
+body {
+    margin: 0 !important;
+    /* chèn margin 0 tất cả thuộc tính magrin*/
+    padding: 0 !important;
+    width: 100%;
+    height: 100vh;
+}
+
+.banner {
+    display: block;
+    border: 1px solid black;
+    height: 860px;
+    background-image: url('https://getwallpapers.com/wallpaper/full/a/3/5/499022.jpg');
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    padding: 20px;
+}
+
+.red {
+    border: 1px solid red;
+}
+
+.green {
+    border: 1px solid green;
+}
+
+.about-sign-in {
+    height: 80px;
+    width: 100%;
+    text-align: right;
+}
+
+.about,
+.sign-in {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 7px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.sign-in {
+    margin-left: 25px;
+    margin-right: 40px;
+    border: 2px solid green;
+    border-radius: 20px;
+}
+
+.login {
+    background: url('https://img.icons8.com/?size=100&id=Dovzd6PbVQqJ&format=png&color=000000') no-repeat top;
+    height: 150px;
+    margin-top: 40px;
+}
+
+.text span {
+    text-align: center;
+    margin-top: 30px;
+    color: green !important;
+}
+
+.bnt-start-now {
+    text-align: center;
+}
+
+button {
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border: 2px solid green;
+    border-radius: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.left,
+.right,
+.center {
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+span {
+    display: block;
+    font-size: 20px;
+    color: #ff5567;
+    margin-top: 5px;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+}
